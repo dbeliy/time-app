@@ -28,6 +28,7 @@ pool.getConnection((err, connection) => {
     connection.query(createTimeTable, (err) => {
       if (!err) {
         console.log('Times table was created')
+        console.log('ERROR')
       }
     })
     connection.release()
