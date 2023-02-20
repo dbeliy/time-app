@@ -29,7 +29,7 @@ export default {
 <template>
   <div class="greetings">
     <h1 class="green">{{ currentTime }}</h1>
-    <h3>Нажмите кнопку для сохранения в базе данных</h3>
+    <h3>Click on button for saving in data base</h3>
     <button @click="saveTime">Save times</button>
     <h3 v-if="savedTimes.length && showSavedTimes">
       Ранее сохраненные времена:
